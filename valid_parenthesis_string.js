@@ -1,3 +1,5 @@
+// Time Complexitiy: O(N)
+// Space Complexity: O(N)
 function parenthesisDetector(str) {
   let machedBracket = [];
   let mappedBracket = {
