@@ -20,7 +20,6 @@ function reversedLinkedList(head, left, right) {
 
   let currentNode = headNode;
 
-  let rightPoint
   while(currentNode) {
     nextNode = currentNode.next;
     currentNode.next = prevNode;
